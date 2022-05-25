@@ -1,0 +1,62 @@
+section{
+    height: 100vh;
+}
+
+.section-container {
+    padding-top: 100px      ;
+}
+
+.form-header{
+    padding-bottom: 40px;
+}
+
+.contact-us-f {
+    display: flex;
+    justify-content: center;
+}
+
+.fields-con{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.name, .email {
+    width: 200px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.name input, .email input {
+    width: 200px;
+    height: 40px;
+    border: solid 1px;
+    padding-left: 5px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    width: 430px;
+    padding-bottom: 10px;
+}
+
+.message textarea {
+    width: 437px;
+    resize: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.submit button {
+    width: 430px;
+    height: 40px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    background-color: brown;
+}

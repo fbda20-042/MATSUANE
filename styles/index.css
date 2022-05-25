@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    padding-top: 25px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(37, 37, 37, 0.726);
+    box-shadow: 2px 2px 8px 2px #0000004e;
+}
+.logo {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links {
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.nav-links li, a {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    transition: ease 0.8s;
+}
+
+.nav-links a:hover {
+    transition: ease 0.8s;
+    color: rgb(255, 134, 134);
+    font-weight: 500;
+}
+ 
+.active {
+    transition: ease 0.8s;
+    color: rgb(255, 134, 134);
+    font-weight: 400;
+}
+ 
+
+footer {
+    clear: both;        
+}
+
+.footer-top {
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-middle{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px
+}
+
+.form-header{
+    text-align: center;
+    font-size: 20px;
+}
+.form-finputs {
+    display: flex;
+    padding-top: 30px;
+}
+
+.footer-formin {
+    width: 200px;
+    height: 40px;
+    border: solid 1px;
+    background-color: aliceblue;
+}
+
+.footer-formin input{
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.footer-formbutton button {
+    height: 41.5px ;
+    margin: 0;
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    color: white;
+    background-color: brown;
+}
+
+.footer-bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+/************************ responsive ************************/
+
+.burger{
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right:-40%;
+    width: 45px;
+    height: 45px;
+    background-color: brown;
+    border-radius: 50px;
+    display: none;
+    justify-content: center;
+}
+.line-con {
+    margin-top: 10px;
+}
+.lines{
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.418);
+}
+
+
+@media screen and (max-width: 900px){
+    header {
+        background-color: black;
+    }
+
+    .burger{
+        display: flex;
+        transition: ease 0.5s;
+    } 
+
+    .nav-links {
+        margin-top: 30px;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        height: 80vh;
+        width: 500px;
+        flex-direction: column;
+        justify-content: space-around;
+        transition: all .3s ease-out;
+        transform: translateY(-110%);
+        border-radius: 20px;
+    }
+
+    .nav-links.open {
+        transition: all .3s ease-in;
+        transform: none;
+    }
+}

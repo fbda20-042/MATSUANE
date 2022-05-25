@@ -1,0 +1,128 @@
+/*landing*/
+.landing-hero{
+    background-image: url("../images/lover-thunder.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-hero h1, h3 {
+    text-shadow: 2px 2px 8px #1f0c0c98;
+}
+
+.landing-container {
+    padding-top: 40vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.moto-logo {
+    font-size: 100px;
+    text-align: center;
+}
+
+.moto {
+    font-size: 40px;
+    text-align: center;
+}
+/*********************************/
+/*************introduct**********/
+.sec-movie-list {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sec-movieL2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.movie-list-head {
+    text-align: center;
+    height: 50px;
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
+}
+
+.movie-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.movie {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.movie img{
+    width: 100%;
+}
+
+.movie-list-bottom {
+    margin-top: 50px;
+    justify-content: center;
+    padding-top: 100px;
+    height: 200px;
+    background-image: url("/images/cinema\ hall.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/**********************************/
+.The-times {
+    display: none;
+    width: 100%;
+    margin-left: 15px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 3px 8px 4px rgb(0, 0, 0);
+}
+.The-times.open {
+    display: block;
+    position: relative;
+}
+.times {
+    padding-bottom: 5px;
+}
+
+.times aside {
+    margin-bottom: 10px;
+}
+.times-container {
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+}
+.time {
+    display: flex;
+    justify-content: space-evenly;   
+}
+.times p {
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 10px;
+}
+
+.time-toggle-btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.time-toggle-btn button {
+    margin-left: 30px;
+    background-color: brown;
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/**********************************/
+/**********************************/

@@ -1,0 +1,70 @@
+/*landing*/
+.landing-hero{
+    height: 100vh;
+}
+
+.landing-hero h1, h3 {
+    text-shadow: 2px 2px 8px #1f0c0cfc;
+}
+
+.landing-container {
+    padding-top: 40vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.moto-logo {
+    font-size: 100px;
+}
+
+.moto {
+    font-size: 40px;    
+}
+/*********************************/
+/*************introduct**********/
+.sec-movie-list {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sec-movieL2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.movie-list-head {
+    text-align: center;
+    height: 50px;
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
+}
+
+.movie-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.movie {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.movie img{
+    width: 100%;
+}
+
+.movie-list-bottom {
+    margin-top: 50px;
+    justify-content: center;
+    padding-top: 100px;
+    height: 200px;
+    background-image: url("/images/cinema\ hall.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/**********************************/
+/******************************/
+/**********************************/
